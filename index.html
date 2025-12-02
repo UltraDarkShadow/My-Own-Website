@@ -15,6 +15,16 @@
             z-index: -1;
             filter: brightness(60%);
         }
+        .gallery {
+            text-align: center;          /* center images/videos */
+        }
+
+        .gallery img,
+        .gallery video {
+            margin: 10px;
+            border-radius: 12px;
+            max-width: 100%;             /* responsive */
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -70,8 +80,8 @@
     </p>
 </section>
     
-<section<>
-    <h2>My 2D Pixel Art Gallery</h2>
+<section class="gallery">
+    <h2>My 2D Pixel Art Image Gallery</h2>
     <img src="images/03.06.png" width="300" style="border-radius: 10px; margin-bottom: 1rem;">
     <img src="images/04.07.png" width="300" style="border-radius: 10px; margin-bottom: 1rem;">
     <img src="images/05.08.png" width="300" style="border-radius: 10px; margin-bottom: 1rem;">
@@ -80,8 +90,8 @@
     <img src="images/07.11.png" width="300" style="border-radius: 10px; margin-bottom: 1rem;">
 </section>
 
- <section<>
-    <h2>My Animation Gallery</h2>
+ <section class="gallery">
+    <h2>My 2D Pixel Art Animation Gallery</h2>
     <video src="videos/R_K_Idle.mp4" autoplay loop muted width="250"></video>
     <video src="videos/R_K_Running.mp4" autoplay loop muted width="250"></video>
     <video src="videos/R_K_SimpleSlash.mp4" autoplay loop muted width="250"></video>
